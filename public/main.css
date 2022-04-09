@@ -1,0 +1,22 @@
+/*noinspection CssUnknownTarget*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box !important;
+}
+
+:root {
+  /* Fixes scrollbars, among other things */
+  color-scheme: dark;
+}
+
+#__next {
+  padding-top: 70px;
+}
+
+#content {
+  min-height: calc(100vh - 70px);
+  padding-bottom: 50px;
+}
